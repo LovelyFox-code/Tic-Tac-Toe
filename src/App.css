@@ -1,0 +1,30 @@
+.app-wrapper {
+    background: rgb(255, 254, 255);
+    background: linear-gradient(40deg, rgba(255, 254, 255, 1) 15%, rgba(239, 253, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+.app-wrapper h1 {
+    color: white;
+}
+
+.game-container {
+    width: 100%;
+    max-width: 600px;
+    padding: 3%;
+    border-radius: 8px;
+    margin: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.overlay {
+    position: absolute;
+}
+
+ol {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
